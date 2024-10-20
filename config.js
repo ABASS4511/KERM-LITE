@@ -7,7 +7,7 @@ const DATABASE_URL = process.env.DATABASE_URL || "./database.db";
 module.exports = {
    // Boolean Values (converted from Strings)
    LOGS: toBool(process.env.LOGS) || false,
-   ANTILINK: toBool(process.env.ANTI_LINK) || false,
+   ANTILINK: toBool(process.env.ANTI_LINK) || true,
    HEROKU: toBool(process.env.HEROKU) || false,
    AUTO_READ: toBool(process.env.AUTO_READ) || false,
    AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || true,
@@ -16,10 +16,10 @@ module.exports = {
    AUTO_REACT: toBool(process.env.AUTO_REACT) || true,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "KermLite~L0wU8REh", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "KermLite~D4XZvRbk", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
-   BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KHALIL🍆 𝐒𝚸𝚵𝚵𝐃🔥 𝑬𝑽𝑰𝑳😈;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "2250502054881",
+   BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;DarkLuffy;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
+   SUDO: process.env.SUDO || "2250545115719",
    PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
@@ -27,7 +27,7 @@ module.exports = {
    BRANCH: "master",
    AUTHOR: process.env.AUTHOR || "Kᴇʀᴍ-ᴍᴅ",
    ANTIWORD: process.env.ANTIWORD || "badword1,badword2,badword3",
-   PACKNAME: process.env.PACKNAME || "𝐊𝚮𝚫𝐋𝚰𝐋🍆 𝐒𝚸𝚵𝚵𝐃🔥 𝑬𝑽𝑰𝑳😈",
+   PACKNAME: process.env.PACKNAME || "⚜️ᴰᴬᴿᴷ↛ⱠɄ₣₣Ɏ🐦‍🔥👒⚜️",
    WELCOME_MSG: process.env.WELCOME_MSG || "Hi batala 😹 @user Welcome to @gname",
    GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you...fuck all",
    RMBG_KEY: process.env.RMBG_KEY || "",
